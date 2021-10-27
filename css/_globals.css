@@ -41,6 +41,13 @@ button,
   cursor: pointer;
 }
 
+button,
+.button:hover {
+  opacity: 0.6;
+  transition: opacity 200ms ease-in-out;
+}
+
+/* Nav hamburger menu */
 .hamburger > span {
   display: block;
   width: 1.625rem;
@@ -51,6 +58,24 @@ button,
 .hamburger > span:not(:last-child) {
   margin-block-end: 3px;
 }
+
+/* Nav link styling */
+.nav__links > a {
+  color: var(--grayishBlue);
+}
+
+.nav__links a:not(:last-child) {
+  margin-inline-end: 2rem;
+}
+
+.nav__links > a:hover {
+  color: var(--darkBlue);
+  transition: color 300ms ease-in-out;
+}
+
+/* .nav__links > a::after {
+  background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+} */
 
 /* #hero {
   background-color: var(--white);
