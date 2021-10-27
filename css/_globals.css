@@ -51,3 +51,18 @@ button,
 .hamburger > span:not(:last-child) {
   margin-block-end: 3px;
 }
+
+/* #hero {
+  background-color: var(--white);
+}
+
+.hero__img {
+  background-color: var(--white);
+  background-image: url(../images/bg-intro-mobile.svg);
+}
+
+img {
+  position: relative;
+  bottom: 115px;
+  max-width: 100%;
+} */
